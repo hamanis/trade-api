@@ -1,0 +1,19 @@
+{
+    "name": "mchekanov/trade-api",
+    "description": "Утилита для работы с Api",
+    "type": "library",
+    "license": "open",
+    "autoload": {
+        "psr-4": {
+            "Mchekanov\\TradeApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "пMikhail Chekanov",
+            "email": "gagonich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
