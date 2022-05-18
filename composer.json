@@ -1,8 +1,8 @@
 {
-    "name": "mchekanov/trade-api",
-    "description": "Утилита для работы с Api",
+    "name": "hamanis/trade-api",
+    "description": "Библиотека для работы с Api",
     "type": "library",
-    "license": "open",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "Mchekanov\\TradeApi\\": "src/"
@@ -10,14 +10,15 @@
     },
     "authors": [
         {
-            "name": "пMikhail Chekanov",
+            "name": "Mikhail Chekanov",
             "email": "gagonich@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "guzzlehttp/guzzle": "7.4.x",
+        "php": ">=7.4.28",
+        "ext-zip": "*",
         "ext-json": "*",
-        "squizlabs/php_codesniffer": "^3.6"
+        "guzzlehttp/guzzle": "7.4.x"
     }
 }
